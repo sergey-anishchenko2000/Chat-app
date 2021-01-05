@@ -1,0 +1,384 @@
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+[class*="col-"] {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.font-8 {
+    font-size: 8px;
+}
+
+.font-9 {
+    font-size: 9px;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+.font-11 {
+    font-size: 11px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-weight-name {
+    font-weight: 500;
+}
+
+p {
+    margin: 0;
+}
+
+.bg-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #fafafa;
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile-scr-box {
+    width: 240px;
+    height: auto;
+    background-color: #f5f3f8;
+    border-radius: 25px;
+    border: 10px solid #fff;
+    margin-right: 100px;
+    float: right;
+}
+
+.chat-header {
+    width: 100%;
+    height: 65px;
+    background-image: linear-gradient(to right, #883fef, #e443ff);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.sound-box {
+    width: 120px;
+    height: 15px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: white;
+}
+
+.avatar-border {
+    border: 1.4px solid white;
+}
+
+.font-weight-500 {
+    font-weight: 600;
+}
+
+.bg-font1 {
+    color: #e8e8e8;
+}
+
+.bg-font2 {
+    color: #c5b8c6;
+}
+
+.pad-80-50 {
+    padding: 80px 50px;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.person-box-p {
+    width: 100%;
+    height: 50px;
+}
+
+.chat-content-box {
+    width: 100%;
+    height: auto;
+    padding: 0.8rem 0 0 0;
+}
+
+.chatting1 {
+    margin-bottom: 1rem;
+}
+
+.chatting2 {
+    margin-bottom: 1rem;
+}
+
+.chatting1-content {
+    width: 140px;
+    height: auto;
+    padding: 5px 8px;
+    border-radius: 10px;
+    border-bottom-left-radius: 6px;
+    background-color: #ede4f5;
+    margin-left: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.bg-1 {
+    width: 450px;
+    height: 700px;
+    left: -80px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    background-image: linear-gradient(to top, #883fef, #e443ff);
+}
+
+.bg-2 {
+    width: 450px;
+    height: 700px;
+    bottom: 0;
+    right: -80px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    background-color: #f9f4fa;
+}
+
+.mobile-bg-1 {
+    width: 450px;
+    height: 700px;
+    left: -240px;
+    top: -150px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    background-image: linear-gradient(to top, #883fef, #e443ff);
+}
+
+.mobile-bg-2 {
+    width: 450px;
+    height: 700px;
+    right: -240px;
+    bottom: -250px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    background-color: #f9f4fa;
+}
+
+.bg-color {
+    background-image: linear-gradient(to left, #883fef, #e443ff);
+}
+
+.chatting2-content {
+    width: 140px;
+    height: auto;
+    padding: 5px 8px;
+    border-radius: 10px;
+    border-bottom-right-radius: 6px;
+    background-color: #fff;
+    float: right;
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.15)!important;
+}
+
+.chat-content-box .chatting1-content p {
+    font-size: 9px;
+    color: #a34be1;
+}
+
+.chat-content-box .chatting2-content p {
+    font-size: 9px;
+    color: #000;
+}
+
+.loading-icon {
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.icon1-size {
+    width: 10px;
+    height: 15px;
+}
+
+.chatting1 .chatting1-content .d-flex p {
+    color: white;
+    font-size: 8px;
+    opacity: 0.5;
+}
+
+.search-box {
+    border-radius: 20px;
+    padding: 4px;
+    margin: 10px;
+    background-color: white;
+}
+
+.search-btn {
+    border-radius: 100%;
+    background: #333;
+    width: 26px;
+    height: 26px;
+}
+
+.img-dog-box {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 0.6rem;
+}
+
+.img-dog {
+    float: right;
+}
+
+.chat-content-box .img-dog-box img {
+    border-radius: 10px;
+    margin-right: 0.6rem;
+}
+
+.chatting2-msg {
+    width: 100%;
+    height: auto;
+}
+
+.svg-back {
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+    background-size: 150px;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 1px;
+}
+
+.letter-spacing-3 {
+    letter-spacing: 3px;
+}
+
+.letter-spacing-6 {
+    letter-spacing: 6px;
+}
+
+.descrip h1 {
+    color: #3a294d;
+}
+
+.descrip p {
+    color: #9e9ea1;
+}
+
+.web-container {
+    margin: 3rem 0;
+}
+
+@media(max-width: 576px) {
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .mobile-scr-box {
+        float: none;
+        margin: 0;
+    }
+    .mobile-md-6 {
+        display: flex;
+        justify-content: center;
+    }
+    .web-container {
+        margin: 0;
+    }
+    .pad-80-50 {
+        padding: 80px 20px;
+    }
+    .mobile-p-4 {
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .mobile-h1 {
+        margin-top: 1.5rem;
+    }
+}
+
+.zindex-99 {
+    z-index: 99;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        max-width: 540px;
+    }
+    .web-p-4 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 8rem;
+        padding-left: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    /* .container,
+    .container-sm,
+    .container-md {
+        max-width: 720px;
+    } */
+    .jumbotron {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 960px;
+    } */
+    .jumbotron {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1300px;
+    } */
+    .jumbotron {
+        max-width: 1300px;
+    }
+}
+
+
+/* .carousel .carousel-item .col-md-5 {
+    background-color: green;
+} */
